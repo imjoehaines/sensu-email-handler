@@ -1,0 +1,1 @@
+{"check":{"status":0,"command":"check-http.rb -u https://sensuapp.org","subscribers":["demo"],"interval":60,"name":"example","issued":1458934742,"executed":1458934742,"duration":0.637,"output":"CheckHttp OK: 200, 78572 bytes\n"},"client":{"name":"example"}}

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "eoghanobrien/php-simple-mail": "^1.5",
+        "vlucas/phpdotenv": "^2.3"
+    }
+}
