@@ -23,7 +23,7 @@ $status = in_array($exitCode, array_keys($subjects))
     ? $subjects[$exitCode]
     : 'Unknown!';
 
-$subject = $sensuOutput['check']['name'] . ' - ' . $status;
+$subject = $status . ' - ' . $sensuOutput['check']['name'];
 
 $message = sprintf(
     '<html>
